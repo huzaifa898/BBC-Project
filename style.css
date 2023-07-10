@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+ul li a::after{
+    content: "";
+    width: 0;
+    height: 3px;
+    background-color: green;
+    margin: auto;
+    display: block;
+}
+ul li a:hover::after{
+    width: 60%;
+    transition: width 0.5s linear;
+    margin-left: 30px;
+}
+ .user::after{
+    content: "";
+    width: 0;
+    height: 3px;
+    background-color: #ffffff;
+    margin: auto;
+    display: block;
+ }
+  .user:hover::after{
+    width: 250%;
+    transition: width 0.5s linear;
+    margin-left: 30px;
+ }
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    letter-spacing: 3px;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.5);
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    background: black;
+    
+}
+.menu{
+    display: flex;
+    margin-top: 20px;
+}
+.menu li a {
+    padding: 15px 35px;
+    color: #ffffff;
+    font-size: 12px;
+}
+h3{
+    color: #ffffff;
+    margin-left: 15px;
+}
+.logo img{
+    width: 90px;
+    margin-top: 7px;
+ }
+ .user img{
+    margin-top: 10px;
+    width: 30px;
+    margin-left: 15px;
+    
+ }
+ .main input[type=text] {
+    float: right;
+    padding: 10px;
+    border: 1px solid black;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    font-size: 14px;
+    margin-left: 30px;
+    background: #ffffff;
+  }
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black;
+  }
+  hr{
+    height: 15px;
+    margin-left: 10px;
+  }
