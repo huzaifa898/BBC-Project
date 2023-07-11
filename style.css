@@ -42,9 +42,6 @@ nav{
     letter-spacing: 3px;
     top: 0%;
     left: 0%;
-    width: 100%;
-    box-sizing: border-box;
-    box-shadow: 2px 2px 12px rgba(0,0,0,0.5);
     overflow: hidden;
     position: fixed;
     width: 100%;
@@ -89,6 +86,165 @@ h3{
     color: black;
   }
   hr{
+    color: red;
     height: 15px;
     margin-left: 10px;
   }
+  h2{
+     color: black;
+  }
+  .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around ;
+    margin-top: 90px;
+  }
+  .container1{
+    margin: 10px 30px 30px 200px;
+    display: grid;
+    grid-template-columns: 400px 300px 300px 300px;
+    grid-template-rows: 200px 200px 200px;
+    grid-gap: 5px;
+}
+.item7{
+    background: url(./images/art-3.jpg);
+   grid-row: 2/3;
+   grid-column: 3/4;
+   background-size: cover;
+   padding: 20px;
+   padding-top: 150px;
+   color: #ffffff;
+   font-size: large;
+   
+}
+.item8{
+    background: url(./images/art-4.jpg);
+    background-size: cover;
+    padding: 20px;
+    padding-top: 150px;
+    color: #ffffff;
+    font-size: large;
+}
+.item9{
+    background: url(./images/art-5.webp);
+    background-size: cover;
+    padding: 20px;
+    padding-top: 150px;
+    color: #ffffff;
+    font-size: large;
+}
+.item10{
+    background: url(./images/art-6.jpg);
+    background-size: cover;
+    padding: 20px;
+    padding-top: 150px;
+    color: #ffffff;
+    font-size: large;
+}
+.item12{
+    background: url(./images/art-2.jpg);
+    grid-row: 1/3;
+    grid-column: 1/3;
+    background-size: cover;
+    color: white;
+    padding: 20px;
+    font-size: x-large;
+    padding-top: 300px;
+    padding-bottom: 60px;
+
+}
+.para{
+    margin-left: 200px;
+}
+p{
+    font-weight: 800;
+}
+.cards{
+    margin-top: -200px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    padding: 20px;
+    grid-gap: 40px;
+    margin-left: 180px;
+    margin-right: 150px;
+}
+.img{
+    width: 100%;
+    display: block;
+
+}
+.sports{
+    margin-top: 200px;
+}
+.wheather{
+    margin-left: 200px;
+}
+.wheat{
+    width: 5%;
+    height: 30%;
+    margin-top: 20px; 
+}
+button{
+    padding: 5px;
+}
+.reels{
+    background-image: url("https://images.unsplash.com/photo-1519423791119-fef2800aaef7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1031&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    min-height: 80vh;
+}
+.container3{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.hed{
+    margin-top: 60px;
+    color: #ffffff;
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+
+}
+.par{
+    color: #ffffff;
+    font-style:oblique ;
+    font-weight: 700;
+}
+.btn{
+    margin-top: 80px;
+    padding: 10px;
+    border: 1px solid white;
+    color: #fff;
+    border-radius: 20px;
+    background: none;
+}
+.container4{
+    width: 75%;
+    display: grid;
+    margin: 90px auto;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+}
+.card1{
+    background-color: #fff;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0,0, 0.2);
+}
+
+.image-section{
+    height: 225px;
+    background-color: red;
+}
+.card1 .img-one{
+    background-image: url(./images/art-6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.head3{
+    color: black;
+}
+.content{
+    padding: 20px;
+}
