@@ -2,6 +2,10 @@
     padding: 0;
     margin: 0;
 }
+body{
+    padding: 0;
+    margin: 0;
+}
 ul{
     list-style: none;
 }
@@ -170,6 +174,7 @@ p{
 }
 .img{
     width: 100%;
+    height: 30vh;
     display: block;
 
 }
@@ -193,6 +198,7 @@ button{
     background-repeat: no-repeat;
     align-items: center;
     min-height: 80vh;
+    width: 100%;
 }
 .container3{
     margin-top: 30px;
@@ -227,7 +233,7 @@ button{
     grid-template-columns: repeat(3,1fr);
     grid-gap: 10px;
 }
-.card1{
+.card4{
     background-color: #fff;
     box-shadow: 0px 4px 8px 0px rgba(0, 0,0, 0.2);
 }
@@ -236,15 +242,350 @@ button{
     height: 225px;
     background-color: red;
 }
-.card1 .img-one{
-    background-image: url(./images/art-6.jpg);
+.card4 .img-one{
+    background-image: url(./images/ree.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
+.card4 .img-two{
+    background-image: url(./images/ree1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.card4 .img-three{
+    background-image: url(./images/ree2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.card4 .img-12{
+    background-image: url(./images/pl3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.card4 .img-13{
+    background-image: url(./images/pl.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.card4 .img-14{
+    background-image: url(./images/pl2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.card6 .img-15{
+    background-image: url(./images/ec.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.card6 .img-16{
+    background-image: url(./images/ec1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.card6 .img-17{
+    background-image: url(./images/ec3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.card6 .img-18{
+    background-image: url(./images/tech.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.card6 .img-19{
+    background-image: url(./images/ee.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
 .head3{
     color: black;
 }
 .content{
     padding: 20px;
 }
+.car{
+    margin-top: -200px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    padding: 20px;
+    grid-gap: 40px;
+    margin-left: 180px;
+    margin-right: 150px;
+}
+.editors{
+    background-color: gainsboro;
+    width: 100%;
+    height: 180vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card6{
+    margin-top: -80px;
+}
+.edu{
+    background-image: url(https://images.unsplash.com/photo-1674574124475-16dd78234342?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80);
+    width: 60%;
+    height: 70vh;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+    margin-left: 200px;
+    background-size: cover;
+}
+.edi{
+    margin-top: 40px;
+    margin-left: 200px;
+}
+.edit{
+    margin-top: -200px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+    padding: 20px;
+    grid-gap: 40px;
+    margin-left: 180px;
+    margin-right: 150px;
+    width: 60%;
+}
+.container5{
+    width: 60%;
+    display: grid;
+    margin-top: 20px;
+    margin-left: 200px;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+}
+.card5 .img-5{
+    background-image: url(./images/ra.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.card5 .img-6{
+    background-image: url(./images/ra6.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.card5 .img-7{
+    background-image: url(./images/ra7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.card5 .img-8{
+    background-image: url(./images/ra12.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.card5 .img-9{
+    background-image: url(./images/ra9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.card5 .img-10{
+    background-image: url(./images/ra11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.card5{
+    background-color: #fff;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0,0, 0.2);
+}
+.planet{
+    margin: -30px;
+    background-image: url("https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=872&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    min-height: 80vh;
+}
+.new{
+    margin: -30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    min-height: 80vh;
+}
+.heding{
+    margin-top: 60px;
+    color: gray;
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+
+}
+.parag{
+    color: gray;
+    font-style:oblique ;
+    font-weight: 700;
+}
+.btn1{
+    margin-top: 80px;
+    padding: 10px;
+    border: 1px solid white;
+    color: black;
+    border-radius: 20px;
+    background: none;
+}
+.container6{
+    width: 75%;
+    display: grid;
+    margin: 90px auto;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+}.card6 .img-one{
+    background-image: url(./images/art-6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: -80px;
+}
+.card6{
+    background-color: #fff;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0,0, 0.2);
+}
+.video{
+    background: gainsboro;
+    width: 100%;
+    height: 130vh;
+    margin-top: -220px;
+}
+.fea{
+    margin-left: 200px;
+    margin-top: 100px;
+}
+.container7{
+    width: 76%;
+    display: grid;
+    margin-top: 60px;
+    margin-left: 190px;
+    grid-template-columns: repeat(1,1fr);
+}
+.image-section1{
+    height: 100vh;
+    background-color: red;
+}
+.card7{
+    background-color: black;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0,0, 0.2);
+    
+}
+.head4{
+    color: #fff;
+}
+.container8{
+    width: 75%;
+    display: grid;
+    margin: 90px auto;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 450px;
+}
+.container9{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   grid-gap: 110px;
+}
+.pic1{
+    background-image: url(./images/sm.jpg);
+    width: 80%;
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 170px;
+}
+.pic2{
+    background-image: url(./images/sm1.jpg);
+    width: 80%;
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mod{
+    margin-top: 220px;
+    color: #fff;
+    font-size: xx-large;
+    margin-left: 30px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  .card4 .img-20{
+    background-image: url(./images/na.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.card4 .img-21{
+    background-image: url(./images/na3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.card4 .img-22{
+    background-image: url(./images/na4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+  .container10 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .logo img {
+    height: 30px;
+  }
+  
+  .links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .links ul li {
+    display: inline-block;
+    margin-right: 15px;
+  }
+  
+  .links ul li:last-child {
+    margin-right: 0;
+  }
+  
+  .links ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+  }
+  
+  .footer-bottom p {
+    margin: 5px 0;
+  }
+  
