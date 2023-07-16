@@ -12,7 +12,7 @@
     <title>BBC Clone</title>
 </head>
 
-<body>
+<body class="custom__container__wrapper">
     <section class="main">
         <nav class="main">
             <a href="#" class="logo"><img src="./images/BBC-New-Logo-700x394.png" alt="BBC logo"></a>
@@ -20,8 +20,14 @@
             <h3>Sign in</h3>
             <hr>
             <ul class="menu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#newarrival">News</a></li>
+                <li><a href="#home" contenteditable="true">Home</a></li>
+                <li class="parent__list"><a href="#newarrival">News</a>
+                    <ul class="child__list">
+                        <li>Test</li>
+                        <li>Test</li>
+                        <li>Test</li>
+                    </ul>
+                </li>
                 <li><a href="#writers">Sports</a></li>
                 <li><a href="#about">Reels</a></li>
                 <li><a href="#contact">Travel</a></li>
@@ -382,7 +388,14 @@
                 <div class="container7">
                     <div class="card7">
                         <div class="image-section1 img-one">
-                            <iframe width="1310" height="811vh" src="https://www.youtube.com/embed/u0-FLuwWhf4" title="5 Monster Flash Floods Caught On Camera" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <video controls autoplay nofullscreen="true" poster="images/art-1.jpg">
+                                <source src="video-test.mp4" type="video/mp4">
+                                <a href="video-test.mp4" class="video__download">Download the Video</a>
+<!--                                will check later -->
+
+
+
+                            </video>
                         </div>
                             <div class="content">
                              <h3 class="head4">

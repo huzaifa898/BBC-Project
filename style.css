@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -5,7 +6,18 @@
 body{
     padding: 0;
     margin: 0;
+    font-family: 'Open Sans',sans-serif;
 }
+video{
+    max-width: 50%;
+    display: flex;
+    min-height: 100px;
+    align-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+
 ul{
     list-style: none;
 }
@@ -20,6 +32,12 @@ ul li a::after{
     margin: auto;
     display: block;
 }
+/*ul li a:after{*/
+/*    */
+/*}*/
+/*ul>li a::after{*/
+/*    */
+/*}*/
 ul li a:hover::after{
     width: 60%;
     transition: width 0.5s linear;
@@ -204,6 +222,7 @@ button{
     margin-top: 30px;
     display: flex;
     justify-content: space-around;
+
 }
 .hed{
     margin-top: 60px;
@@ -480,6 +499,10 @@ button{
     height: 100vh;
     background-color: red;
 }
+.video__download{
+    color:#fff;
+    background:#f9f3e9;
+}
 .card7{
     background-color: black;
     box-shadow: 0px 4px 8px 0px rgba(0, 0,0, 0.2);
@@ -588,4 +611,20 @@ footer {
   .footer-bottom p {
     margin: 5px 0;
   }
-  
+
+
+/*dropdown*/
+.parent__list,.child__list{
+    transition: all 1s ease-out;
+}
+.child__list{
+    display: none;
+
+}
+.parent__list:hover .child__list{
+    display: block;
+    color:#fff;
+    position: relative;
+    left:35px;
+}
+/*end */

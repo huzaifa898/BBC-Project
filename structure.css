@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #f9f3e9;
+}
+.main__wrapper{
+    background: lightgoldenrodyellow;
+    max-width: 90%;
+    display: block;
+    margin: auto;
+    box-sizing: border-box;
+}
